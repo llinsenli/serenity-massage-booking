@@ -99,6 +99,7 @@ serenity-massage-booking/
      - **Who has access**: Anyone (to allow clients to cancel/reschedule).
    - Click **Deploy** and copy the web app URL.
    - Update the `WEB_APP_URL` constant in `Code.gs` with this URL.
+   - When update the code, need to go **Deploy** → **Manage deployments** → **Edit**, select a new version and deploy. Then Update the `WEB_APP_URL`
 
 2. **Test the Form**:
    - Open the Google Form and verify that time slots are populated correctly.
