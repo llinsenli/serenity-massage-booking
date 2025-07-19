@@ -1,0 +1,15 @@
+# Ignore sensitive configuration files
+secrets.json
+.env
+
+# Ignore Google Apps Script clasp files
+.clasp.json
+clasp.json
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore build artifacts
+dist/
+node_modules/
